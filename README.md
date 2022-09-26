@@ -1,16 +1,31 @@
-### Hi there 👋
+## 👨‍💻 Hi!
 
-<!--
-**SoaresCRF/SoaresCRF** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Eu sou Matheus Soares
 
-Here are some ideas to get you started:
+Estudante de desenvolvimento de sistemas
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Na instituição SENAI/BA
+
+<div>
+
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SoaresCRF&show_icons=true&theme=tokyonight"/>
+  
+   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SoaresCRF&layout=compact&theme=tokyonight"/>
+
+</div>
+
+### ❤️ Vamos nos conectar!!!
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-soares-0569b8251/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/soarescrf_/)
+
+### ⚒️ Minhas tecnologias
+
+<div>
+  <img align="center" alt="Soares-html" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
+  <img align="center" alt="Soares-css3" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>
+  <img align="center" alt="Soares-php" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"/>
+  <img align="center" alt="Soares-python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
+  <img align="center" alt="Soares-java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
+  <img align="center" alt="Soares-mysql" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"/>
+</div>
