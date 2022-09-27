@@ -6,7 +6,7 @@ Estudante de desenvolvimento de sistemas
 
 Na instituição SENAI/BA
 
-<div>
+<div align="center">
 
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SoaresCRF&show_icons=true&theme=tokyonight"/>
   
