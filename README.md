@@ -2,11 +2,9 @@
 
 Eu sou Matheus Soares
 
-Estudante de desenvolvimento de sistemas
+Estudante de desenvolvimento de sistemas (SENAI/BA)
 
-Na instituição SENAI/BA
-
-<div style= "display: inline-block;" >
+<div>
 
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SoaresCRF&show_icons=true&theme=tokyonight"/>
   
