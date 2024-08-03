@@ -1,4 +1,4 @@
-## Olá, mundo! Me chamo Matheus Soares 👨‍💻. Sou formado em desenvolvimento de sistemas (SENAI/BA).
+## Olá, mundo! Me chamo Matheus Soares 👨‍💻. Atualmente cursando análise e desenvolvimento de sistemas (UNINTER) 1/5.
 
 <div align="center">
   <a href="https://github.com/SoaresCRF">
