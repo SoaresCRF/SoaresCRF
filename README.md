@@ -4,7 +4,7 @@
 Olá, <span role="img" aria-label="mundo" title="mundo">🌎</span>! Me chamo Matheus Soares 👨‍💻. Sou estudante do ensino superior em <strong>Análise e Desenvolvimento de Sistemas</strong>, com grande interesse no universo da <strong>tecnologia</strong> e da
 <strong>programação</strong>. 💡🖥️ 
 
-Já tive contato com diversas áreas da <strong>Tecnologia da Informação</strong>, como <strong>desenvolvimento web</strong>, <strong>mobile</strong> e <strong>programação no geral</strong>. 🚀 Gosto de explorar tanto o que o usuário vê quanto o que acontece por trás das aplicações, navegando entre <strong>front-end</strong> e <strong>back-end</strong> com tranquilidade. 🧩
+Já tive contato com diversas áreas da <strong>Tecnologia da Informação</strong>, como <strong>desenvolvimento web</strong>, <strong>mobile</strong> e <strong>programação no geral</strong>. Gosto de explorar tanto o que o usuário vê quanto o que acontece por trás das aplicações, navegando entre <strong>front-end</strong> e <strong>back-end</strong> com tranquilidade. 🚀 
 
 Tenho facilidade em <strong>transformar ideias em soluções práticas</strong>, me envolvendo ativamente em cada etapa dos projetos. 🛠️✨
 
