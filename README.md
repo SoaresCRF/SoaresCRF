@@ -1,5 +1,8 @@
 ## Olá, mundo! Me chamo Matheus Soares 👨‍💻. Atualmente cursando análise e desenvolvimento de sistemas (UNINTER).
 
+<h2>🐞 Debugando o Dev por trás dos códigos...</h2>
+
+<p>
   Olá, <span role="img" aria-label="mundo" title="mundo">🌎</span>! Sou estudante do ensino superior em <strong>Análise
     e Desenvolvimento de Sistemas</strong>, com grande interesse no universo da <strong>tecnologia</strong> e da
   <strong>programação</strong>. 💡🖥️ <br><br>
@@ -21,6 +24,7 @@
 
   Ainda estou explorando o vasto campo da <strong>T.I</strong>, mantendo a mente aberta para diferentes caminhos e
   oportunidades. 🌍🔍
+</p>
 
 <div align="center">
   <a href="https://github.com/SoaresCRF">
