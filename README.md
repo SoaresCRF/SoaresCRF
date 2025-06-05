@@ -1,26 +1,18 @@
 <h2>🐞 Debugando o Dev por trás dos códigos...</h2>
 
-<p style="text-align: justify;">
-  Olá, <span role="img" aria-label="mundo" title="mundo">🌎</span>! Me chamo Matheus Soares 👨‍💻. Sou estudante do ensino superior em <strong>Análise e Desenvolvimento de Sistemas</strong>, com grande interesse no universo da <strong>tecnologia</strong> e da
+<p>
+Olá, <span role="img" aria-label="mundo" title="mundo">🌎</span>! Me chamo Matheus Soares 👨‍💻. Sou estudante do ensino superior em <strong>Análise e Desenvolvimento de Sistemas</strong>, com grande interesse no universo da <strong>tecnologia</strong> e da
 <strong>programação</strong>. 💡🖥️ 
 
-  Já tive contato com diversas áreas da <strong>Tecnologia da Informação</strong>, como <strong>desenvolvimento
-    web</strong>, <strong>mobile</strong> e <strong>programação no geral</strong>. 🚀 Gosto de explorar tanto o que o
-  usuário vê quanto o que acontece por trás das aplicações, navegando entre <strong>front-end</strong> e
-  <strong>back-end</strong> com tranquilidade. 🧩
+Já tive contato com diversas áreas da <strong>Tecnologia da Informação</strong>, como <strong>desenvolvimento web</strong>, <strong>mobile</strong> e <strong>programação no geral</strong>. 🚀 Gosto de explorar tanto o que o usuário vê quanto o que acontece por trás das aplicações, navegando entre <strong>front-end</strong> e <strong>back-end</strong> com tranquilidade. 🧩
 
-  Tenho facilidade em <strong>transformar ideias em soluções práticas</strong>, me envolvendo ativamente em cada etapa
-  dos projetos. 🛠️✨
+Tenho facilidade em <strong>transformar ideias em soluções práticas</strong>, me envolvendo ativamente em cada etapa dos projetos. 🛠️✨
 
-  Estou sempre em busca de <strong>novos aprendizados</strong>, experimentando e aplicando conhecimentos na prática,
-  seja em <strong>projetos pessoais</strong> ou <strong>profissionais</strong>. 📘🧪💼
+Estou sempre em busca de <strong>novos aprendizados</strong>, experimentando e aplicando conhecimentos na prática, seja em <strong>projetos pessoais</strong> ou <strong>profissionais</strong>. 📘🧪💼
 
-  Fora do mundo da programação, sou fã de <strong>esportes</strong> e <strong>games</strong>. Curto jogar online 🎮, sou
-  torcedor do <strong>Flamengo</strong> ❤️🖤 e do <strong>Real Madrid</strong> 🤍🖤, além de ser grande admirador do
-  <strong>Cristiano Ronaldo</strong> ⚽👑!
+Fora do mundo da programação, sou fã de <strong>esportes</strong> e <strong>games</strong>. Curto jogar online 🎮, sou torcedor do <strong>Flamengo</strong> ❤️🖤 e do <strong>Real Madrid</strong> 🤍🖤, além de ser grande admirador do <strong>Cristiano Ronaldo</strong> ⚽👑!
 
-  Ainda estou explorando o vasto campo da <strong>T.I</strong>, mantendo a mente aberta para diferentes caminhos e
-  oportunidades. 🌍🔍
+Ainda estou explorando o vasto campo da <strong>T.I</strong>, mantendo a mente aberta para diferentes caminhos e oportunidades. 🌍🔍
 </p>
 
 <div align="center">
