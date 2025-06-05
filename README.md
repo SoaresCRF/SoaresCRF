@@ -1,4 +1,4 @@
-## Olá, mundo! Me chamo Matheus Soares 👨‍💻. Atualmente cursando análise e desenvolvimento de sistemas (UNINTER) 1/5.
+## Olá, mundo! Me chamo Matheus Soares 👨‍💻. Atualmente cursando análise e desenvolvimento de sistemas (UNINTER).
 
 <div align="center">
   <a href="https://github.com/SoaresCRF">
