@@ -1,6 +1,6 @@
 <h2>🐞 Debugando o Dev por trás dos códigos...</h2>
 
-<p style="text-align: justify;">
+<p align="justify">
 Olá, <span role="img" aria-label="mundo" title="mundo">🌎</span>! Me chamo Matheus Soares 👨‍💻. Sou estudante do ensino superior em <strong>Análise e Desenvolvimento de Sistemas</strong>, com grande interesse no universo da <strong>tecnologia</strong> e da
 <strong>programação</strong>. 💡🖥️ 
 
