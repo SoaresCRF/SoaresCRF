@@ -3,7 +3,7 @@
 <p style="text-align: justify;">
   Olá, <span role="img" aria-label="mundo" title="mundo">🌎</span>! Me chamo Matheus Soares 👨‍💻. Sou estudante do ensino superior em <strong>Análise
     e Desenvolvimento de Sistemas</strong>, com grande interesse no universo da <strong>tecnologia</strong> e da
-  <strong>programação</strong>. 💡🖥️ <br>
+  <strong>programação</strong>. 💡🖥️ 
 
   Já tive contato com diversas áreas da <strong>Tecnologia da Informação</strong>, como <strong>desenvolvimento
     web</strong>, <strong>mobile</strong> e <strong>programação no geral</strong>. 🚀 Gosto de explorar tanto o que o
