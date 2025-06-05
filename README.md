@@ -12,7 +12,7 @@ Estou sempre em busca de <strong>novos aprendizados</strong>, experimentando e a
 
 Fora do mundo da programação, sou fã de <strong>esportes</strong> e <strong>games</strong>. Curto jogar online 🎮, sou torcedor do <strong>Flamengo</strong> ❤️🖤 e do <strong>Real Madrid</strong> 🤍🖤, além de ser grande admirador do <strong>Cristiano Ronaldo</strong> ⚽👑!
 
-Ainda estou explorando o vasto campo da <strong>T.I</strong>, mantendo a mente aberta para diferentes caminhos e oportunidades. 🌍🔍
+Ainda estou explorando o vasto campo da <strong>T.I</strong>, mantendo a mente aberta para diferentes caminhos e oportunidades. 🔍
 </p>
 
 <div align="center">
