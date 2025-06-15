@@ -24,5 +24,5 @@
  
  ##
  
-![Snake animation](https://github.com/SoaresCRF/SoaresCRF/blob/output/github-contribution-grid-snake.svg)
+<img src="https://raw.githubusercontent.com/SoaresCRF/SoaresCRF/output/snake.svg" alt="Snake animation" />
 </div>
