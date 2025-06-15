@@ -1,0 +1,23 @@
+name: Generate Snake Contribution Grid
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Snake SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: SoaresCRF
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: output
+          folder: dist
