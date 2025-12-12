@@ -54,22 +54,16 @@
 
 <br>
 
-<div align="center">
-  <!-- Link para o LinkedIn -->
-  <a href="https://www.linkedin.com/in/matheus-soares-0569b8251/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a> &nbsp;&nbsp;&nbsp;
-  
-  <!-- Link para o Instagram -->
-  <a href="https://www.instagram.com/soarescrf_/" target="_blank">
-    <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-  </a> &nbsp;&nbsp;&nbsp;
-  
-  <!-- Link para email -->
-  <a href="mailto:matheussoarescrf10@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</div>
+<table> 
+  <tr> 
+    <!-- Link para o LinkedIn -->
+    <td align="center" width="160" style="padding: 12px;"><a href="https://www.linkedin.com/in/matheus-soares-0569b8251/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a></td> 
+    <!-- Link para o Instagram -->
+    <td align="center" width="160" style="padding: 12px;"><a href="https://www.instagram.com/soarescrf_/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a></td> 
+    <!-- Link para email -->
+    <td align="center" width="160" style="padding: 12px;"><a href="mailto:matheussoarescrf10@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"/></a></td> 
+  </tr>
+</table>
 
 <br><br>
 
@@ -165,16 +159,16 @@
 
 <br>
 
-<div align="center">
-  <p>
+<table> 
+  <tr>
     <!-- Contador de visitas -->
-    <img src="https://komarev.com/ghpvc/?username=SoaresCRF&color=00bfbf&style=for-the-badge"/> &nbsp;&nbsp;&nbsp;
-    <!-- Seguidores do GitHub -->
-    <img src="https://img.shields.io/github/followers/SoaresCRF?label=Seguidores&style=for-the-badge&color=00bfbf"/> &nbsp;&nbsp;&nbsp;
-    <!-- Repositórios com estrela -->
-    <img src="https://img.shields.io/github/stars/SoaresCRF?label=Stars&style=for-the-badge&color=00bfbf"/>
-  </p>
-</div>
+    <td align="center" style="padding: 12px;"><img src="https://komarev.com/ghpvc/?username=SoaresCRF&color=00bfbf&style=for-the-badge"/></td>
+     <!-- Seguidores do GitHub -->
+    <td align="center" style="padding: 12px;"><img src="https://img.shields.io/github/followers/SoaresCRF?label=Seguidores&style=for-the-badge&color=00bfbf"/></td>
+     <!-- Repositórios com estrela -->
+    <td align="center" style="padding: 12px;"><img src="https://img.shields.io/github/stars/SoaresCRF?label=Stars&style=for-the-badge&color=00bfbf"/></td> 
+  </tr> 
+</table>
 
 <br><br>
 
