@@ -11,7 +11,7 @@
 <br><br>
 
 <!-- Título da seção de estatísticas -->
-# 📊 Visão Geral das Estatísticas
+# 📊 Visão Geral
 
 <br>
 
