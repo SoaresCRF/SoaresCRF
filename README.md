@@ -112,7 +112,7 @@
 <table> 
   <tr>
     <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="55"/><br><sub><b>Django</b></sub></td> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" width="55"/><br><sub><b>Laravel</b></sub></td> 
+    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="55"/><br><sub><b>Laravel</b></sub></td> 
     <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="55"/><br><sub><b>Node.js</b></sub></td> 
     <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="55"/><br><sub><b>Spring</b></sub></td> 
   </tr>  
