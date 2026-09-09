@@ -1,192 +1,149 @@
-<!-- Banner superior decorativo -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
-
-<br>
-
 <div align="center">
 
-<!-- Texto animado de apresentação -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=Olá!+Me+chamo+Matheus+Soares!;Graduando+em+Análise+e+Desenvolvimento+de+Sistemas.;Seja+bem-vindo(a)!+:%29)](https://git.io/typing-svg)
-
-<br><br>
-
-<!-- Título da seção de estatísticas -->
-# 📊 Visão Geral
+<!-- Header banner -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=2"/>
 
 <br>
 
-<!-- Tabela com estatísticas do GitHub -->
+# Matheus Soares
+
+### Desenvolvedor Full Stack Jr. &nbsp;|&nbsp; Estudante de ADS
+
+<!-- Status badges -->
+![Open to work](https://img.shields.io/badge/status-aberto%20a%20oportunidades-15e5a6?style=flat-square&labelColor=0d1117)
+![Formação](https://img.shields.io/badge/formação-ADS%20%40%20UNINTER-00bfbf?style=flat-square&labelColor=0d1117)
+![Localização](https://img.shields.io/badge/localização-Feira%20de%20Santana%2C%20BA-8b949e?style=flat-square&labelColor=0d1117)
+
+</div>
+
+<br>
+
+## Sobre mim
+
+Estudante de Análise e Desenvolvimento de Sistemas pela UNINTER, com foco em desenvolvimento full stack (web e mobile). Já levei um dos meus projetos para uma feira em Feira de Santana (BA). No momento, estou em busca da minha primeira oportunidade como desenvolvedor Jr.
+
+<br>
+
+## Projetos em destaque
+
 <table>
   <tr>
-    <td align="center" style="padding: 12px;">
-      <!-- Estatísticas gerais -->
-      <img height="180em" src="https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api?username=SoaresCRF&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117"/>
+    <td width="50%" valign="top">
+      <a href="https://github.com/SoaresCRF/kotlin-mobile-littlesounds"><b>kotlin-mobile-littlesounds</b></a>
+      <br>
+      Aplicativo infantil para Android que ensina inglês às crianças por meio de imagens e sons. Apresentado em feira na cidade de Feira de Santana.
+      <br><br>
+      <img src="https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"/>
+      <img src="https://img.shields.io/badge/-Android-3DDC84?style=flat-square&logo=android&logoColor=white"/>
     </td>
-    <td align="center" style="padding: 12px;">
-      <!-- Linguagens mais usadas -->
-      <img height="180em" src="https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api/top-langs/?username=SoaresCRF&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117"/>
+    <td width="50%" valign="top">
+      <a href="https://github.com/SoaresCRF/kotlin-mobile-dayx"><b>kotlin-mobile-dayx</b></a>
+      <br>
+      Aplicativo Android moderno em Kotlin para exibição de eventos históricos com atualizações diárias.
+      <br><br>
+      <img src="https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"/>
+      <img src="https://img.shields.io/badge/-Android-3DDC84?style=flat-square&logo=android&logoColor=white"/>
     </td>
   </tr>
-</table>
-
-<br><br>
-
-<!-- Seção de atividade recente -->
-# 📈 Atividade Recente
-
-<br>
-
-<div align="center">
-  <p>
-    <!-- Gráfico da atividade no GitHub -->
-    <img
-      src="https://github-readme-activity-graph.vercel.app/graph?username=SoaresCRF&bg_color=000000&color=15e5a6&line=07e9a5&point=0a855c&area=true&hide_border=true"
-      alt="GitHub Activity Graph"
-      width="100%"
-    />
-  </p>
-</div>
-
-<br><br>
-
-<!-- Seção de redes sociais -->
-# 🌐 Conecte-se Comigo
-
-<br>
-
-<table> 
-  <tr> 
-    <!-- Link para o LinkedIn -->
-    <td align="center" width="160" style="padding: 12px;"><a href="https://www.linkedin.com/in/matheus-soares-0569b8251/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a></td> 
-    <!-- Link para o Instagram -->
-    <td align="center" width="160" style="padding: 12px;"><a href="https://www.instagram.com/soarescrf_/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a></td> 
-    <!-- Link para email -->
-    <td align="center" width="160" style="padding: 12px;"><a href="mailto:matheussoarescrf10@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"/></a></td> 
-  </tr>
-</table>
-
-<br><br>
-
-<!-- Tecnologias -->
-# 🛠️ Tecnologias & Ferramentas
-
-<br>
-
-<!-- Linguagens de Programação -->
-## 💻 Linguagens de Programação
-
-<table> 
-  <tr> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="55"/><br><sub><b>Java</b></sub></td> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="55"/><br><sub><b>JavaScript</b></sub></td>
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" width="55"/><br><sub><b>Kotlin</b></sub></td>
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="55"/><br><sub><b>PHP</b></sub></td>
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="55"/><br><sub><b>Python</b></sub></td> 
-  </tr> 
-</table>
-
-<br><br>
-
-<!-- Front-end -->
-## 🎨 Front-end
-
-<table> 
-  <tr> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="55"/><br><sub><b>Bootstrap</b></sub></td> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="55"/><br><sub><b>CSS3</b></sub></td> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="55"/><br><sub><b>HTML5</b></sub></td> 
-  </tr> 
-</table>
-
-<br><br>
-
-<!-- Back-end -->
-## 🔧 Back-end
-
-<table> 
   <tr>
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="55"/><br><sub><b>Django</b></sub></td> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="55"/><br><sub><b>Laravel</b></sub></td> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="55"/><br><sub><b>Node.js</b></sub></td> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="55"/><br><sub><b>Spring</b></sub></td> 
-  </tr>  
+    <td width="50%" valign="top">
+      <a href="https://github.com/SoaresCRF/web-portfolio"><b>web-portfolio</b></a>
+      <br>
+      Portfólio pessoal (web): quem sou eu, formação, projetos e como me encontrar.
+      <br><br>
+      <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+      <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+      <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/SoaresCRF/kotlin-mobile-portfolio"><b>kotlin-mobile-portfolio</b></a>
+      <br>
+      Portfólio pessoal (Android): quem sou eu, formação, projetos e como me encontrar.
+      <br><br>
+      <img src="https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"/>
+      <img src="https://img.shields.io/badge/-Android-3DDC84?style=flat-square&logo=android&logoColor=white"/>
+    </td>
+  </tr>
 </table>
 
-<br><br>
+<br>
 
-<!-- Bancos de dados -->
-## 🗄️ Bancos de Dados
+## Stack
+
+**Linguagens**
+<br>
+![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+**Front-end**
+<br>
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+
+**Back-end**
+<br>
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white)
+![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![Spring](https://img.shields.io/badge/-Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
+
+**Banco de dados**
+<br>
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+
+**Ferramentas**
+<br>
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Android Studio](https://img.shields.io/badge/-Android%20Studio-3DDC84?style=flat-square&logo=android-studio&logoColor=white)
+![IntelliJ](https://img.shields.io/badge/-IntelliJ-000000?style=flat-square&logo=intellij-idea&logoColor=white)
+![PyCharm](https://img.shields.io/badge/-PyCharm-000000?style=flat-square&logo=pycharm&logoColor=white)
+![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+
+<br>
+
+## GitHub
 
 <table>
-  <tr> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="55"/><br><sub><b>MySQL</b></sub></td> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="55"/><br><sub><b>PostgreSQL</b></sub></td>
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="55"/><br><sub><b>SQLite</b></sub></td> 
-  </tr> 
-</table>
-
-<br><br>
-
-<!-- DevOps e Cloud -->
-## ☁️ DevOps e Cloud
-
-<table> 
-  <tr> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="55"/><br><sub><b>Git</b></sub></td> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="55"/><br><sub><b>GitHub</b></sub></td> 
+  <tr>
+    <td align="center">
+      <img height="165em" src="https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api?username=SoaresCRF&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117"/>
+    </td>
+    <td align="center">
+      <img height="165em" src="https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api/top-langs/?username=SoaresCRF&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117"/>
+    </td>
   </tr>
 </table>
 
-<br><br>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SoaresCRF&bg_color=0d1117&color=15e5a6&line=15e5a6&point=00bfbf&area=true&hide_border=true" alt="GitHub Activity Graph" width="100%"/>
 
-<!-- Design e Ferramentas de Produção -->
-## 🖌️ Design e Ferramentas de Produção
-
-<table> 
-  <tr> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" width="55"/><br><sub><b>Android Studio</b></sub></td>
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="55"/><br><sub><b>Figma</b></sub></td>
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" width="55"/><br><sub><b>IntelliJ</b></sub></td>
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" width="55"/><br><sub><b>PyCharm</b></sub></td>
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="55"/><br><sub><b>VS Code</b></sub></td> 
-  </tr> 
-</table>
-
-<br><br>
-
-<!-- Métricas adicionais -->
-## 🧩 Métricas Complementares
-
-<br>
-
-<table> 
-  <tr>
-    <!-- Contador de visitas -->
-    <td align="center" style="padding: 12px;"><img src="https://komarev.com/ghpvc/?username=SoaresCRF&color=00bfbf&style=for-the-badge"/></td>
-     <!-- Seguidores do GitHub -->
-    <td align="center" style="padding: 12px;"><img src="https://img.shields.io/github/followers/SoaresCRF?label=Seguidores&style=for-the-badge&color=00bfbf"/></td>
-     <!-- Repositórios com estrela -->
-    <td align="center" style="padding: 12px;"><img src="https://img.shields.io/github/stars/SoaresCRF?label=Stars&style=for-the-badge&color=00bfbf"/></td> 
-  </tr> 
-</table>
-
-<br><br>
-
-<!-- Seção da animação snake -->
-# 🐍 Histórico de Contribuições
-
-<br>
+<img src="https://raw.githubusercontent.com/SoaresCRF/SoaresCRF/output/snake.svg" alt="snake animation" width="100%"/>
 
 <div align="center">
-  <p>
-    <!-- Animação do snake do GitHub -->
-    <img src="https://raw.githubusercontent.com/SoaresCRF/SoaresCRF/output/snake.svg" alt="snake animation" width="100%"/>
-  </p>
-</div>
 
-<br><br>
+![Visitas](https://komarev.com/ghpvc/?username=SoaresCRF&color=0d1117&style=flat-square&label=Visitas)
+![Seguidores](https://img.shields.io/github/followers/SoaresCRF?label=Seguidores&style=flat-square&color=0d1117&labelColor=0d1117)
+![Stars](https://img.shields.io/github/stars/SoaresCRF?label=Stars&style=flat-square&color=0d1117&labelColor=0d1117)
 
 </div>
 
-<!-- Banner inferior decorativo -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
+<br>
+
+## Contato
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-soares-0569b8251/)
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/soarescrf_/)
+[![Gmail](https://img.shields.io/badge/-Gmail-333333?style=flat-square&logo=gmail&logoColor=white)](mailto:matheussoarescrf10@gmail.com)
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=2"/>
