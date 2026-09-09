@@ -110,7 +110,7 @@
 <p align="center"><em>"Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose."</em></p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SoaresCRF/SoaresCRF/main/space-shooter.gif" alt="Space shooter contribution graph" />
+  <img src="https://raw.githubusercontent.com/SoaresCRF/SoaresCRF/main/space-shooter.webp" alt="Space shooter contribution graph" />
 </p>
 
 <p align="center">
