@@ -8,9 +8,9 @@
 
 ## 📌 About Me
 - 🔭 I'm currently working on personal projects to keep sharpening my skills
-- 🌱 I'm constantly learning — a little bit of something new every day
+- 🌱 I'm constantly learning. A little bit of something new every day
 - 🤝 All kinds of help and constructive criticism are welcome
-- 💬 Ask me about anything — I love letting my mind wander
+- 💬 Ask me about anything. I love letting my mind wander
 - ⚡ Fun fact: I'm a gamer, a Flamengo fan, and I admire Cristiano Ronaldo and Magnus Carlsen
 - 📄 Check out my [CV](https://docs.google.com/document/d/1HWLt6qZB1rx3O7TZo4CV4evYYzBdfmqEUzCswklgruI/edit?usp=sharing) to know more about my experience
 
