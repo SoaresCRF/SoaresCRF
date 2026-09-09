@@ -1,192 +1,121 @@
-<!-- Banner superior decorativo -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header" alt="" width="100%" />
 
-<br>
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=Hi+%F0%9F%91%8B!+I'm+Matheus+Soares.;I'm+a+Full+Stack+Developer!" alt="Typing SVG" /></a>
+</p>
 
-<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" alt="Banner" width="100%" />
 
-<!-- Texto animado de apresentação -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=Olá!+Me+chamo+Matheus+Soares!;Graduando+em+Análise+e+Desenvolvimento+de+Sistemas.;Seja+bem-vindo(a)!+:%29)](https://git.io/typing-svg)
+## 📌 About Me
+- 🔭 I'm currently working on personal projects to keep sharpening my skills
+- 🌱 I'm constantly learning — a little bit of something new every day
+- 🤝 All kinds of help and constructive criticism are welcome
+- 💬 Ask me about anything — I love letting my mind wander
+- ⚡ Fun fact: I'm a gamer, a Flamengo fan, and I admire Cristiano Ronaldo and Magnus Carlsen
+- 📄 Check out my [CV](https://docs.google.com/document/d/1HWLt6qZB1rx3O7TZo4CV4evYYzBdfmqEUzCswklgruI/edit?usp=sharing) to know more about my experience
 
-<br><br>
+## 🧠 My Focus Areas
+- Web Development
+- Frontend Development
+- Backend Development
+- Mobile App Development
 
-<!-- Título da seção de estatísticas -->
-# 📊 Visão Geral
+## 🛠️ Languages & Tools
 
-<br>
+<h3 align="center">Programming Languages</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/powershell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/python-%233670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+</p>
 
-<!-- Tabela com estatísticas do GitHub -->
-<table>
-  <tr>
-    <td align="center" style="padding: 12px;">
-      <!-- Estatísticas gerais -->
-      <img height="180em" src="https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api?username=SoaresCRF&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117"/>
-    </td>
-    <td align="center" style="padding: 12px;">
-      <!-- Linguagens mais usadas -->
-      <img height="180em" src="https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api/top-langs/?username=SoaresCRF&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117"/>
-    </td>
-  </tr>
-</table>
+<h3 align="center">Frontend</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/react-%2320232A.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/vue.js-%2335495E.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D" alt="Vue.js" />
+</p>
 
-<br><br>
+<h3 align="center">Database</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase&logoColor=white" alt="Firebase" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/neo4j-%23008CC1.svg?style=for-the-badge&logo=neo4j&logoColor=white" alt="Neo4j" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/sqlite-%2307405E.svg?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/supabase-%233ECF8E.svg?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+</p>
 
-<!-- Seção de atividade recente -->
-# 📈 Atividade Recente
+<h3 align="center">Tools</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/canva-%2300C4CC.svg?style=for-the-badge&logo=canva&logoColor=white" alt="Canva" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/visual%20studio%20code-%230078D7.svg?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+</p>
 
-<br>
+<h3 align="center">Backend</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white" alt="Django" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/node.js-%236DA55F.svg?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Boot" />
+</p>
 
-<div align="center">
-  <p>
-    <!-- Gráfico da atividade no GitHub -->
-    <img
-      src="https://github-readme-activity-graph.vercel.app/graph?username=SoaresCRF&bg_color=000000&color=15e5a6&line=07e9a5&point=0a855c&area=true&hide_border=true"
-      alt="GitHub Activity Graph"
-      width="100%"
-    />
-  </p>
-</div>
+<h3 align="center">DevOps & Cloud</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/docker-%230DB7ED.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/render-%2346E3B7.svg?style=for-the-badge&logo=render&logoColor=white" alt="Render" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+</p>
 
-<br><br>
+<h3 align="center">Mobile</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/android-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white" alt="Android" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/flutter-%2302569B.svg?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+</p>
 
-<!-- Seção de redes sociais -->
-# 🌐 Conecte-se Comigo
+<h3 align="center">Most Used Languages</h3>
+<p align="center">
+  <a href="https://github.com/SoaresCRF"><img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=SoaresCRF&cache_seconds=7200&langs_count=8&layout=compact&theme=radical&hide_border=true&bg_color=00000000" alt="Top Languages" /></a>
+</p>
 
-<br>
+## 📊 GitHub Stats & Trophies
+<p align="center">
+  <a href="https://github.com/SoaresCRF"><img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=SoaresCRF&cache_seconds=7200&include_all_commits=true&layout=compact&theme=radical&hide_border=true&bg_color=00000000" alt="SoaresCRF's GitHub Stats" /></a>
+  <a href="https://github.com/SoaresCRF"><img height="180em" src="https://streak-stats.demolab.com/?user=SoaresCRF&theme=radical&hide_border=true&background=transparent&stroke=transparent&cache_seconds=86400" alt="SoaresCRF's GitHub Streak" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/SoaresCRF"><img src="https://trophy.ryglcloud.net/?username=SoaresCRF&theme=radical&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400" alt="SoaresCRF's GitHub Trophies" /></a>
+</p>
 
-<table> 
-  <tr> 
-    <!-- Link para o LinkedIn -->
-    <td align="center" width="160" style="padding: 12px;"><a href="https://www.linkedin.com/in/matheus-soares-0569b8251/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a></td> 
-    <!-- Link para o Instagram -->
-    <td align="center" width="160" style="padding: 12px;"><a href="https://www.instagram.com/soarescrf_/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a></td> 
-    <!-- Link para email -->
-    <td align="center" width="160" style="padding: 12px;"><a href="mailto:matheussoarescrf10@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"/></a></td> 
-  </tr>
-</table>
+## 🔗 Connect with Me
+<p align="center">
+  <a href="mailto:matheussoarescrf10@gmail.com"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Gmail.svg" alt="Gmail" width="40" /></a>&nbsp;&nbsp;
+  <a href="https://www.instagram.com/soarescrf_/"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Instagram.svg" alt="Instagram" width="40" /></a>&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/matheus-soares-0569b8251/"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/LinkedIN.svg" alt="LinkedIn" width="40" /></a>&nbsp;&nbsp;
+  <a href="https://soarescrf.github.io/web-portfolio/"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/WWW.svg" alt="Website" width="40" /></a>
+</p>
 
-<br><br>
+## 💬 Quote
+<p align="center"><em>"Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose."</em></p>
 
-<!-- Tecnologias -->
-# 🛠️ Tecnologias & Ferramentas
+<p align="center">
+  <img src="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" alt="Space shooter contribution graph" />
+</p>
 
-<br>
+<p align="center">
+  <a href="https://komarev.com/ghpvc/?username=SoaresCRF"><img src="https://komarev.com/ghpvc/?username=SoaresCRF&label=Profile%20views&color=00FFFF&style=flat-square" alt="SoaresCRF's profile views" /></a>
+</p>
 
-<!-- Linguagens de Programação -->
-## 💻 Linguagens de Programação
+<img src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer" alt="" width="100%" />
 
-<table> 
-  <tr> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="55"/><br><sub><b>Java</b></sub></td> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="55"/><br><sub><b>JavaScript</b></sub></td>
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" width="55"/><br><sub><b>Kotlin</b></sub></td>
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="55"/><br><sub><b>PHP</b></sub></td>
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="55"/><br><sub><b>Python</b></sub></td> 
-  </tr> 
-</table>
-
-<br><br>
-
-<!-- Front-end -->
-## 🎨 Front-end
-
-<table> 
-  <tr> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="55"/><br><sub><b>Bootstrap</b></sub></td> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="55"/><br><sub><b>CSS3</b></sub></td> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="55"/><br><sub><b>HTML5</b></sub></td> 
-  </tr> 
-</table>
-
-<br><br>
-
-<!-- Back-end -->
-## 🔧 Back-end
-
-<table> 
-  <tr>
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="55"/><br><sub><b>Django</b></sub></td> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="55"/><br><sub><b>Laravel</b></sub></td> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="55"/><br><sub><b>Node.js</b></sub></td> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="55"/><br><sub><b>Spring</b></sub></td> 
-  </tr>  
-</table>
-
-<br><br>
-
-<!-- Bancos de dados -->
-## 🗄️ Bancos de Dados
-
-<table>
-  <tr> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="55"/><br><sub><b>MySQL</b></sub></td> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="55"/><br><sub><b>PostgreSQL</b></sub></td>
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="55"/><br><sub><b>SQLite</b></sub></td> 
-  </tr> 
-</table>
-
-<br><br>
-
-<!-- DevOps e Cloud -->
-## ☁️ DevOps e Cloud
-
-<table> 
-  <tr> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="55"/><br><sub><b>Git</b></sub></td> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="55"/><br><sub><b>GitHub</b></sub></td> 
-  </tr>
-</table>
-
-<br><br>
-
-<!-- Design e Ferramentas de Produção -->
-## 🖌️ Design e Ferramentas de Produção
-
-<table> 
-  <tr> 
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" width="55"/><br><sub><b>Android Studio</b></sub></td>
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="55"/><br><sub><b>Figma</b></sub></td>
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" width="55"/><br><sub><b>IntelliJ</b></sub></td>
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" width="55"/><br><sub><b>PyCharm</b></sub></td>
-    <td align="center" width="120" style="padding: 12px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="55"/><br><sub><b>VS Code</b></sub></td> 
-  </tr> 
-</table>
-
-<br><br>
-
-<!-- Métricas adicionais -->
-## 🧩 Métricas Complementares
-
-<br>
-
-<table> 
-  <tr>
-    <!-- Contador de visitas -->
-    <td align="center" style="padding: 12px;"><img src="https://komarev.com/ghpvc/?username=SoaresCRF&color=00bfbf&style=for-the-badge"/></td>
-     <!-- Seguidores do GitHub -->
-    <td align="center" style="padding: 12px;"><img src="https://img.shields.io/github/followers/SoaresCRF?label=Seguidores&style=for-the-badge&color=00bfbf"/></td>
-     <!-- Repositórios com estrela -->
-    <td align="center" style="padding: 12px;"><img src="https://img.shields.io/github/stars/SoaresCRF?label=Stars&style=for-the-badge&color=00bfbf"/></td> 
-  </tr> 
-</table>
-
-<br><br>
-
-<!-- Seção da animação snake -->
-# 🐍 Histórico de Contribuições
-
-<br>
-
-<div align="center">
-  <p>
-    <!-- Animação do snake do GitHub -->
-    <img src="https://raw.githubusercontent.com/SoaresCRF/SoaresCRF/output/snake.svg" alt="snake animation" width="100%"/>
-  </p>
-</div>
-
-<br><br>
-
-</div>
-
-<!-- Banner inferior decorativo -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
