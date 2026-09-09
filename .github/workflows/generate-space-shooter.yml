@@ -19,7 +19,7 @@ jobs:
 
       - uses: czl9707/gh-space-shooter@v2
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.CONTRIB_PAT }}
           username: SoaresCRF
           output-path: 'space-shooter.webp'
           strategy: 'random'
