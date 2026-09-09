@@ -4,7 +4,7 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=Hi+%F0%9F%91%8B!+I'm+Matheus+Soares.;I'm+a+Full+Stack+Developer!" alt="Typing SVG" /></a>
 </p>
 
-<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" alt="Banner" width="100%" />
+<img src="https://raw.githubusercontent.com/SoaresCRF/SoaresCRF/main/banner.webp" alt="Banner" width="100%" />
 
 ## 📌 About Me
 - 🔭 I'm currently working on personal projects to keep sharpening my skills
