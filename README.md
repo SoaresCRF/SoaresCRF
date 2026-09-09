@@ -8,7 +8,7 @@
 
 ## 📌 About Me
 - 🔭 I'm currently working on personal projects to keep sharpening my skills
-- 🌱 I'm constantly learning. A little bit of something new every day
+- 🌱 I'm constantly learning, a little bit of something new every day
 - 🤝 All kinds of help and constructive criticism are welcome
 - 💬 Ask me about anything. I love letting my mind wander
 - ⚡ Fun fact: I'm a gamer, a Flamengo fan, and I admire Cristiano Ronaldo and Magnus Carlsen
