@@ -114,7 +114,7 @@
 </p>
 
 <p align="center">
-  <a href="https://komarev.com/ghpvc/?username=SoaresCRF"><img src="https://komarev.com/ghpvc/?username=SoaresCRF&label=Profile%20views&color=00FFFF&style=flat-square" alt="SoaresCRF's profile views" /></a>
+  <a href="https://komarev.com/ghpvc/?username=SoaresCRF"><img src="https://komarev.com/ghpvc/?username=SoaresCRF&label=Profile%20views&color=058082&style=flat-square" alt="SoaresCRF's profile views" /></a>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer" alt="" width="100%" />
