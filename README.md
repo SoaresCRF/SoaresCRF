@@ -86,13 +86,13 @@
 
 <h3 align="center">Most Used Languages</h3>
 <p align="center">
-  <a href="https://github.com/SoaresCRF"><img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=SoaresCRF&cache_seconds=7200&langs_count=8&layout=compact&theme=radical&hide_border=true&bg_color=00000000" alt="Top Languages" /></a>
+  <a href="https://github.com/SoaresCRF"><img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=SoaresCRF&cache_seconds=7200&langs_count=8&layout=compact&theme=radical&hide_border=true&bg_color=00000000" alt="Top Languages" /></a>
 </p>
 
 ## 📊 GitHub Stats & Trophies
 <p align="center">
-  <a href="https://github.com/SoaresCRF"><img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=SoaresCRF&cache_seconds=7200&include_all_commits=true&layout=compact&theme=radical&hide_border=true&bg_color=00000000" alt="SoaresCRF's GitHub Stats" /></a>
-  <a href="https://github.com/SoaresCRF"><img height="180em" src="https://streak-stats.demolab.com/?user=SoaresCRF&theme=radical&hide_border=true&background=transparent&stroke=transparent&cache_seconds=86400" alt="SoaresCRF's GitHub Streak" /></a>
+  <a href="https://github.com/SoaresCRF"><img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api?username=SoaresCRF&cache_seconds=7200&include_all_commits=true&layout=compact&theme=radical&hide_border=true&bg_color=00000000" alt="SoaresCRF's GitHub Stats" /></a>
+  <a href="https://github.com/SoaresCRF"><img height="180" src="https://streak-stats.demolab.com/?user=SoaresCRF&theme=radical&hide_border=true&background=transparent&stroke=transparent&cache_seconds=86400" alt="SoaresCRF's GitHub Streak" /></a>
 </p>
 <p align="center">
   <a href="https://github.com/SoaresCRF"><img src="https://trophy.ryglcloud.net/?username=SoaresCRF&theme=radical&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400" alt="SoaresCRF's GitHub Trophies" /></a>
