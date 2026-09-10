@@ -24,64 +24,64 @@
 
 <h3 align="center">Programming Languages</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white" alt="Java" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/kotlin-%237F52FF.svg?style=flat&logo=kotlin&logoColor=white" alt="Kotlin" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=flat&logo=php&logoColor=white" alt="PHP" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/powershell-%235391FE.svg?style=flat&logo=powershell&logoColor=white" alt="PowerShell" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/python-%233670A0.svg?style=flat&logo=python&logoColor=ffdd54" alt="Python" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white" alt="Java" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/kotlin-%237F52FF.svg?style=flat&logo=kotlin&logoColor=white" alt="Kotlin" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=flat&logo=php&logoColor=white" alt="PHP" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/powershell-%235391FE.svg?style=flat&logo=powershell&logoColor=white" alt="PowerShell" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/python-%233670A0.svg?style=flat&logo=python&logoColor=ffdd54" alt="Python" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white" alt="TypeScript" height="28" />
 </p>
 
 <h3 align="center">Frontend</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/angular-%23DD0031.svg?style=flat&logo=angular&logoColor=white" alt="Angular" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=flat&logo=bootstrap&logoColor=white" alt="Bootstrap" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white" alt="CSS3" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white" alt="HTML5" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/react-%2320232A.svg?style=flat&logo=react&logoColor=%2361DAFB" alt="React" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/vue.js-%2335495E.svg?style=flat&logo=vuedotjs&logoColor=%234FC08D" alt="Vue.js" />
+  <img src="https://img.shields.io/badge/angular-%23DD0031.svg?style=flat&logo=angular&logoColor=white" alt="Angular" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=flat&logo=bootstrap&logoColor=white" alt="Bootstrap" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white" alt="CSS3" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white" alt="HTML5" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/react-%2320232A.svg?style=flat&logo=react&logoColor=%2361DAFB" alt="React" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/vue.js-%2335495E.svg?style=flat&logo=vuedotjs&logoColor=%234FC08D" alt="Vue.js" height="28" />
 </p>
 
 <h3 align="center">Database</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=flat&logo=firebase&logoColor=white" alt="Firebase" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/mysql-%234479A1.svg?style=flat&logo=mysql&logoColor=white" alt="MySQL" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/neo4j-%23008CC1.svg?style=flat&logo=neo4j&logoColor=white" alt="Neo4j" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/sqlite-%2307405E.svg?style=flat&logo=sqlite&logoColor=white" alt="SQLite" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/supabase-%233ECF8E.svg?style=flat&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=flat&logo=firebase&logoColor=white" alt="Firebase" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/mysql-%234479A1.svg?style=flat&logo=mysql&logoColor=white" alt="MySQL" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/neo4j-%23008CC1.svg?style=flat&logo=neo4j&logoColor=white" alt="Neo4j" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/sqlite-%2307405E.svg?style=flat&logo=sqlite&logoColor=white" alt="SQLite" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/supabase-%233ECF8E.svg?style=flat&logo=supabase&logoColor=white" alt="Supabase" height="28" />
 </p>
 
 <h3 align="center">Tools</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/canva-%2300C4CC.svg?style=flat&logo=canva&logoColor=white" alt="Canva" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white" alt="Figma" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white" alt="Git" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white" alt="GitHub" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/visual%20studio%20code-%230078D7.svg?style=flat&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/canva-%2300C4CC.svg?style=flat&logo=canva&logoColor=white" alt="Canva" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white" alt="Figma" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white" alt="Git" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white" alt="GitHub" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/visual%20studio%20code-%230078D7.svg?style=flat&logo=visualstudiocode&logoColor=white" alt="VS Code" height="28" />
 </p>
 
 <h3 align="center">Backend</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/django-%23092E20.svg?style=flat&logo=django&logoColor=white" alt="Django" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=flat&logo=laravel&logoColor=white" alt="Laravel" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/node.js-%236DA55F.svg?style=flat&logo=node.js&logoColor=white" alt="Node.js" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=flat&logo=spring&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/django-%23092E20.svg?style=flat&logo=django&logoColor=white" alt="Django" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=flat&logo=laravel&logoColor=white" alt="Laravel" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/node.js-%236DA55F.svg?style=flat&logo=node.js&logoColor=white" alt="Node.js" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=flat&logo=spring&logoColor=white" alt="Spring Boot" height="28" />
 </p>
 
 <h3 align="center">DevOps & Cloud</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/docker-%230DB7ED.svg?style=flat&logo=docker&logoColor=white" alt="Docker" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/render-%2346E3B7.svg?style=flat&logo=render&logoColor=white" alt="Render" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/docker-%230DB7ED.svg?style=flat&logo=docker&logoColor=white" alt="Docker" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/render-%2346E3B7.svg?style=flat&logo=render&logoColor=white" alt="Render" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white" alt="Vercel" height="28" />
 </p>
 
 <h3 align="center">Mobile</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/android-%233DDC84.svg?style=flat&logo=android&logoColor=white" alt="Android" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/flutter-%2302569B.svg?style=flat&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/android-%233DDC84.svg?style=flat&logo=android&logoColor=white" alt="Android" height="28" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/flutter-%2302569B.svg?style=flat&logo=flutter&logoColor=white" alt="Flutter" height="28" />
 </p>
 
 <h3 align="center">Most Used Languages</h3>
