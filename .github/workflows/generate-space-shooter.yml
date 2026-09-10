@@ -1,4 +1,4 @@
-name: Update space shooter game GIF
+name: Generate Space Shooter
 
 on:
   schedule:
@@ -9,18 +9,22 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: ${{ github.workflow }}
+
 jobs:
   update-game:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 2 # required for the amend logic
 
-      - uses: czl9707/gh-space-shooter@v2
+      - uses: czl9707/gh-space-shooter@eea3dd4d83e464ec7c4153e09e303952b924f5c5 # v2.0.5
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           username: SoaresCRF
           output-path: 'space-shooter.webp'
           strategy: 'random'
           fps: '60'
+          commit-message: 'Generate Space Shooter'
