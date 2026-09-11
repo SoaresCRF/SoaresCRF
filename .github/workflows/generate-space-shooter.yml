@@ -26,4 +26,4 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           output-path: 'space-shooter.webp'
           fps: '60'
-          commit-message: 'Generate Space Shooter'
+          commit-message: 'chore: generate space shooter animation'
