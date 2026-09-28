@@ -7,7 +7,7 @@ ASSETS_DIR="assets"
 TIMEOUT_SECONDS=30
 # Error cards from these services are still valid SVGs served with HTTP 200,
 # so the body has to be checked too.
-ERROR_PATTERN='something went wrong|rate limit|error'
+ERROR_PATTERN='something went wrong|rate limit|could not|error'
 
 declare -A CARDS=(
   [top-langs]="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=SoaresCRF&cache_seconds=7200&langs_count=8&layout=compact&theme=radical&hide_border=true&bg_color=00000000"
