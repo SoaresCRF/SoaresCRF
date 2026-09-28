@@ -1,7 +1,7 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header" alt="" width="100%" />
+<img src="./assets/header.svg" alt="" width="100%" />
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=Hi+%F0%9F%91%8B!+I'm+Matheus+Soares.;I'm+a+Full+Stack+Developer!" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="./assets/typing.svg" alt="Typing SVG" /></a>
 </p>
 
 <img src="https://raw.githubusercontent.com/SoaresCRF/SoaresCRF/main/banner.webp" alt="Banner" width="100%" />
@@ -117,5 +117,5 @@
   <a href="https://komarev.com/ghpvc/?username=SoaresCRF"><img src="https://komarev.com/ghpvc/?username=SoaresCRF&label=Profile%20views&color=058082&style=flat&base=0" alt="SoaresCRF's profile views" /></a>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer" alt="" width="100%" />
+<img src="./assets/footer.svg" alt="" width="100%" />
 
