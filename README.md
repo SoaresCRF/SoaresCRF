@@ -1,7 +1,7 @@
 <img src="./assets/header.svg" alt="" width="100%" />
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="./assets/typing.svg" alt="Hi 👋! I'm Matheus Soares. I'm a Full Stack Developer!" /></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="./assets/typing.svg" alt="Hi 👋! I'm Matheus Soares. I'm a Full Stack Developer!" /></a>
 </p>
 
 <img src="./assets/banner.webp" alt="Pixel art of a developer coding at a desk in a room full of Super Mario decorations" width="100%" />
