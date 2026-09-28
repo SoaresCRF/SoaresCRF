@@ -6,8 +6,7 @@ on:
 
   workflow_dispatch:
 
-permissions:
-  contents: write
+permissions: {}
 
 concurrency:
   group: ${{ github.workflow }}
@@ -19,22 +18,17 @@ env:
   COMMIT_MESSAGE: 'chore: generate space shooter animation'
 
 jobs:
-  update-game:
+  # Runs the third-party generator with a read-only token, so even a malicious
+  # package version could not write to the repository.
+  generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: read
     steps:
-      # main: provides the pinned requirements file.
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           persist-credentials: false
-
-      # output: receives the ~1.2 MB animation, so a single amended commit is
-      # kept there instead of growing main's history daily.
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
-        with:
-          ref: output
-          path: output
-          fetch-depth: 2 # required for the amend logic
 
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
         with:
@@ -46,10 +40,36 @@ jobs:
       - name: Generate game
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh-space-shooter "${{ github.repository_owner }}" --output "output/$OUTPUT_FILE" --strategy random --fps 60
+        run: gh-space-shooter "${{ github.repository_owner }}" --output "$OUTPUT_FILE" --strategy random --fps 60
+
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: space-shooter
+          path: ${{ env.OUTPUT_FILE }}
+          if-no-files-found: error
+          retention-days: 1
+
+  # Only runs trusted steps with the write token. The ~1.2 MB animation goes to
+  # the output branch, so a single amended commit is kept there instead of
+  # growing main's history daily.
+  publish:
+    needs: generate
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: output
+          fetch-depth: 2 # required for the amend logic
+
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: space-shooter
+          path: .
 
       - name: Commit and push
-        working-directory: output
         run: |
           git add "$OUTPUT_FILE"
           if git diff --staged --quiet; then
