@@ -1,10 +1,10 @@
 <img src="./assets/header.svg" alt="" width="100%" />
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="./assets/typing.svg" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="./assets/typing.svg" alt="Hi 👋! I'm Matheus Soares. I'm a Full Stack Developer!" /></a>
 </p>
 
-<img src="https://raw.githubusercontent.com/SoaresCRF/SoaresCRF/main/banner.webp" alt="Banner" width="100%" />
+<img src="https://raw.githubusercontent.com/SoaresCRF/SoaresCRF/main/banner.webp" alt="Pixel art of a developer coding at a desk in a room full of Super Mario decorations" width="100%" />
 
 ## 📌 About Me
 - 🔭 I'm currently working on personal projects to keep sharpening my skills
