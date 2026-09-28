@@ -1,0 +1,38 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # every 6 hours (UTC)
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}
+
+jobs:
+  update-cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      # Never fails the job: a broken card only logs a warning and keeps its previous file.
+      - name: Download cards
+        run: bash .github/scripts/update-cards.sh
+
+      - name: Commit and push if changed
+        run: |
+          git add assets/
+          if git diff --staged --quiet; then
+            echo "No card changed, nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898733+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update README cards"
+          # Other workflows (space shooter) may have pushed in the meantime.
+          git pull --rebase
+          git push
