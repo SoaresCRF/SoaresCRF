@@ -1,0 +1,19 @@
+version: 2
+updates:
+  # Pinned action SHAs in .github/workflows.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      actions:
+        patterns: ['*']
+
+  # Pinned Python packages for the space shooter generator.
+  - package-ecosystem: pip
+    directory: /.github/space-shooter
+    schedule:
+      interval: monthly
+    groups:
+      space-shooter:
+        patterns: ['*']
