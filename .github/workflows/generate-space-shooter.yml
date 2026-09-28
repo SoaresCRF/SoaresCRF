@@ -12,21 +12,60 @@ permissions:
 concurrency:
   group: ${{ github.workflow }}
 
+# Same steps as the czl9707/gh-space-shooter action, inlined so the Python
+# packages are installed at pinned versions instead of the latest from PyPI.
+env:
+  OUTPUT_FILE: space-shooter.webp
+  COMMIT_MESSAGE: 'chore: generate space shooter animation'
+
 jobs:
   update-game:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      # main: provides the pinned requirements file.
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
-          # Commit the ~1.2 MB animation to its own branch so the action can keep
-          # amending a single commit instead of growing main's history daily.
+          persist-credentials: false
+
+      # output: receives the ~1.2 MB animation, so a single amended commit is
+      # kept there instead of growing main's history daily.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
           ref: output
+          path: output
           fetch-depth: 2 # required for the amend logic
 
-      - uses: czl9707/gh-space-shooter@eea3dd4d83e464ec7c4153e09e303952b924f5c5 # v2.0.5
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          output-path: 'space-shooter.webp'
-          fps: '60'
-          commit-message: 'chore: generate space shooter animation'
+          python-version: '3.12'
+
+      - name: Install generator
+        run: pip install -r .github/space-shooter/requirements.txt
+
+      - name: Generate game
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh-space-shooter "${{ github.repository_owner }}" --output "output/$OUTPUT_FILE" --strategy random --fps 60
+
+      - name: Commit and push
+        working-directory: output
+        run: |
+          git add "$OUTPUT_FILE"
+          if git diff --staged --quiet; then
+            echo "Animation unchanged, nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898733+github-actions[bot]@users.noreply.github.com"
+
+          last_message=$(git log -1 --pretty=%s)
+          last_files=$(git log -1 --name-only --pretty=format: | grep -v '^$')
+          if [ "$last_message" = "$COMMIT_MESSAGE" ] && [ "$last_files" = "$OUTPUT_FILE" ]; then
+            echo "Amending previous animation commit."
+            git commit --amend --no-edit
+            git push --force-with-lease
+          else
+            git commit -m "$COMMIT_MESSAGE"
+            git push
+          fi
