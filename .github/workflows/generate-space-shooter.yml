@@ -19,6 +19,9 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
+          # Commit the ~1.2 MB animation to its own branch so the action can keep
+          # amending a single commit instead of growing main's history daily.
+          ref: output
           fetch-depth: 2 # required for the amend logic
 
       - uses: czl9707/gh-space-shooter@eea3dd4d83e464ec7c4153e09e303952b924f5c5 # v2.0.5
