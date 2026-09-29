@@ -59,6 +59,14 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           theme: radical
 
+      - name: Generate streak card
+        uses: DenverCoder1/github-readme-streak-stats@d855de1a23fe45bdda5ffbc28a6d4b80b0f107e1 # v1.8.0
+        continue-on-error: true
+        with:
+          options: user=SoaresCRF&theme=radical&hide_border=true&background=transparent&stroke=transparent
+          path: generated/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       # Never fails the job: a broken card only logs a warning and keeps its previous file.
       - name: Update cards
         run: bash .github/scripts/update-cards.sh

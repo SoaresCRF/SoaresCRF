@@ -1,64 +1,43 @@
 #!/usr/bin/env bash
-# Updates the README cards in assets/. Each card is independent: a failed or
-# invalid card keeps the previous file, so the README never shows an error banner.
+# Installs the README cards rendered earlier in the workflow by the official
+# github-readme-stats, github-profile-trophy and github-readme-streak-stats
+# actions. Each card is independent: a missing or invalid card keeps the
+# previous file, so the README never shows an error banner.
 set -uo pipefail
 
 ASSETS_DIR="assets"
-TIMEOUT_SECONDS=30
-# Error cards from these services are still valid SVGs served with HTTP 200,
-# so the body has to be checked too.
-ERROR_PATTERN='something went wrong|rate limit|could not|error'
-# Cards rendered earlier in the workflow by the official github-readme-stats and
-# github-profile-trophy actions.
 GENERATED_DIR="${GENERATED_DIR:-generated}"
-GENERATED_CARDS=(stats top-langs trophy)
-
-declare -A CARDS=(
-  [streak]="https://streak-stats.demolab.com/?user=SoaresCRF&theme=radical&hide_border=true&background=transparent&stroke=transparent&cache_seconds=86400"
-)
+CARDS=(stats top-langs trophy streak)
+# Error cards are still valid SVGs, so the body has to be checked too.
+ERROR_PATTERN='something went wrong|rate limit|could not|error'
 
 mkdir -p "$ASSETS_DIR"
-tmp_file=$(mktemp)
-trap 'rm -f "$tmp_file"' EXIT
 failed=0
 
-# Copies $2 over assets/$1.svg only if it is a real SVG and not an error card.
-install_card() {
-  local name="$1" source="$2" target="$ASSETS_DIR/$1.svg"
+for name in "${CARDS[@]}"; do
+  source="$GENERATED_DIR/$name.svg"
+  target="$ASSETS_DIR/$name.svg"
+
+  if [ ! -s "$source" ]; then
+    echo "::warning::$name: not generated, keeping previous $target"
+    failed=$((failed + 1))
+    continue
+  fi
 
   if ! grep -q '<svg' "$source"; then
-    echo "::warning::$name: response is not an SVG, keeping previous $target"
+    echo "::warning::$name: output is not an SVG, keeping previous $target"
     failed=$((failed + 1))
-    return
+    continue
   fi
 
   if grep -qiE "$ERROR_PATTERN" "$source"; then
-    echo "::warning::$name: response looks like an error card, keeping previous $target"
+    echo "::warning::$name: output looks like an error card, keeping previous $target"
     failed=$((failed + 1))
-    return
+    continue
   fi
 
   cp "$source" "$target"
   echo "$name: updated $target"
-}
-
-for name in "${GENERATED_CARDS[@]}"; do
-  if [ ! -s "$GENERATED_DIR/$name.svg" ]; then
-    echo "::warning::$name: not generated, keeping previous $ASSETS_DIR/$name.svg"
-    failed=$((failed + 1))
-    continue
-  fi
-  install_card "$name" "$GENERATED_DIR/$name.svg"
 done
 
-for name in "${!CARDS[@]}"; do
-  if ! curl --fail --silent --show-error --location --max-time "$TIMEOUT_SECONDS" \
-      --output "$tmp_file" "${CARDS[$name]}"; then
-    echo "::warning::$name: download failed, keeping previous $ASSETS_DIR/$name.svg"
-    failed=$((failed + 1))
-    continue
-  fi
-  install_card "$name" "$tmp_file"
-done
-
-echo "Done: $failed of $((${#GENERATED_CARDS[@]} + ${#CARDS[@]})) cards failed."
+echo "Done: $failed of ${#CARDS[@]} cards failed."
