@@ -12,8 +12,10 @@ concurrency:
   group: ${{ github.workflow }}
 
 jobs:
-  # Runs the third-party card renderer with a read-only token, so even a
+  # Runs the third-party card renderers with a read-only token, so even a
   # malicious version could not write to the repository.
+  # Each renderer writes its card only on success and continue-on-error lets
+  # the others run, so a failed card keeps the previous file from the checkout.
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
@@ -25,16 +27,15 @@ jobs:
           persist-credentials: false
 
       # core_version '' uses the renderer version locked in the action instead
-      # of installing the latest 2.x from npm on every run.
-      # continue-on-error: a failed card is skipped by update-cards.sh, which keeps
-      # the previous file.
+      # of installing the latest 2.x from npm on every run. fail_on_error stops
+      # it from writing a "Something went wrong" card.
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         continue-on-error: true
         with:
           card: stats
           options: username=SoaresCRF&include_all_commits=true&layout=compact&theme=radical&hide_border=true&bg_color=00000000&custom_title=My GitHub Statistics
-          path: generated/stats.svg
+          path: assets/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           core_version: ''
           fail_on_error: 'true'
@@ -45,7 +46,7 @@ jobs:
         with:
           card: top-langs
           options: username=SoaresCRF&langs_count=8&layout=compact&theme=radical&hide_border=true&bg_color=00000000
-          path: generated/top-langs.svg
+          path: assets/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           core_version: ''
           fail_on_error: 'true'
@@ -55,7 +56,7 @@ jobs:
         continue-on-error: true
         with:
           username: SoaresCRF
-          output_path: generated/trophy.svg
+          output_path: assets/trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           theme: radical
 
@@ -64,17 +65,19 @@ jobs:
         continue-on-error: true
         with:
           options: user=SoaresCRF&theme=radical&hide_border=true&background=transparent&stroke=transparent
-          path: generated/streak.svg
+          path: assets/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Never fails the job: a broken card only logs a warning and keeps its previous file.
-      - name: Update cards
-        run: bash .github/scripts/update-cards.sh
-
+      # Only these four files reach the publish job, so the renderers cannot
+      # change anything else in the repository.
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: cards
-          path: assets/*.svg
+          path: |
+            assets/stats.svg
+            assets/top-langs.svg
+            assets/trophy.svg
+            assets/streak.svg
           if-no-files-found: error
           retention-days: 1
 

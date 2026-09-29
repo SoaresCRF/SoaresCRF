@@ -1,2 +1,0 @@
-# Keep shell scripts runnable in Git Bash on Windows (core.autocrlf would add CRLF).
-*.sh text eol=lf
