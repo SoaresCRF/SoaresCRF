@@ -11,7 +11,7 @@ httpx==0.28.1
 idna==3.20
 markdown-it-py==4.2.0
 mdurl==0.1.2
-pillow==12.2.0
+pillow==12.3.0
 Pygments==2.21.0
 python-dotenv==1.2.3
 rich==15.0.0
