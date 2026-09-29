@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# Offline test for update-cards.sh: a fake curl on PATH returns one scenario per
-# card, and the test checks which files in assets/ were replaced or kept.
+# Offline test for update-cards.sh: fake generated cards plus a fake curl on PATH
+# give one scenario per card, and the test checks which files in assets/ were
+# replaced or kept.
 # Run: bash .github/scripts/test-update-cards.sh
 set -euo pipefail
 
@@ -8,7 +9,7 @@ script="$(cd "$(dirname "$0")" && pwd)/update-cards.sh"
 work=$(mktemp -d)
 trap 'rm -rf "$work"' EXIT
 
-mkdir -p "$work/bin" "$work/assets"
+mkdir -p "$work/bin" "$work/assets" "$work/generated"
 cat > "$work/bin/curl" <<'EOF'
 #!/usr/bin/env bash
 # Fake curl: writes a canned response to --output, chosen by the card URL.
@@ -21,8 +22,6 @@ while [ $# -gt 0 ]; do
   esac
 done
 case "$url" in
-  *top-langs*) echo '<svg>new langs</svg>' > "$out" ;;
-  *api\?username*) echo '<svg>Something went wrong! file an issue</svg>' > "$out" ;;
   *streak*) echo '<svg>Could not find a user with that name.</svg>' > "$out" ;;
   *trophy*)
     if [ "${FAKE_TROPHY:-}" = html ]; then
@@ -34,11 +33,15 @@ esac
 EOF
 chmod +x "$work/bin/curl"
 
-for name in top-langs stats streak trophy; do
+for name in stats top-langs streak trophy; do
   echo "<svg>old $name</svg>" > "$work/assets/$name.svg"
 done
+echo '<svg>new stats</svg>' > "$work/generated/stats.svg"
+echo '<svg>Something went wrong! file an issue</svg>' > "$work/generated/top-langs.svg"
 
-output=$(cd "$work" && PATH="$work/bin:$PATH" bash "$script")
+run() {
+  (cd "$work" && PATH="$work/bin:$PATH" bash "$script")
+}
 
 fail=0
 check() {
@@ -49,8 +52,10 @@ check() {
     fail=1
   fi
 }
-check top-langs '<svg>new langs</svg>' 'valid SVG replaces the old file'
-check stats '<svg>old stats</svg>' 'error card keeps the old file'
+
+output=$(run)
+check stats '<svg>new stats</svg>' 'valid generated card replaces the old file'
+check top-langs '<svg>old top-langs</svg>' 'generated error card keeps the old file'
 check streak '<svg>old streak</svg>' '"could not" error card keeps the old file'
 check trophy '<svg>old trophy</svg>' 'failed download keeps the old file'
 
@@ -61,7 +66,9 @@ else
   fail=1
 fi
 
-(cd "$work" && FAKE_TROPHY=html PATH="$work/bin:$PATH" bash "$script" > /dev/null)
+rm "$work/generated/stats.svg"
+(export FAKE_TROPHY=html; run > /dev/null)
+check stats '<svg>new stats</svg>' 'missing generated card keeps the current file'
 check trophy '<svg>old trophy</svg>' 'non-SVG response keeps the old file'
 
 exit $fail

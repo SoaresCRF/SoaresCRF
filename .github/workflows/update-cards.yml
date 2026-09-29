@@ -6,22 +6,75 @@ on:
 
   workflow_dispatch:
 
-permissions:
-  contents: write
+permissions: {}
 
 concurrency:
   group: ${{ github.workflow }}
 
 jobs:
-  update-cards:
+  # Runs the third-party card renderer with a read-only token, so even a
+  # malicious version could not write to the repository.
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+
+      # core_version '' uses the renderer version locked in the action instead
+      # of installing the latest 2.x from npm on every run.
+      # continue-on-error: a failed card is skipped by update-cards.sh, which keeps
+      # the previous file.
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        continue-on-error: true
+        with:
+          card: stats
+          options: username=SoaresCRF&include_all_commits=true&layout=compact&theme=radical&hide_border=true&bg_color=00000000&custom_title=My GitHub Statistics
+          path: generated/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: ''
+          fail_on_error: 'true'
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        continue-on-error: true
+        with:
+          card: top-langs
+          options: username=SoaresCRF&langs_count=8&layout=compact&theme=radical&hide_border=true&bg_color=00000000&custom_title=My Programming Languages
+          path: generated/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          core_version: ''
+          fail_on_error: 'true'
+
+      # Never fails the job: a broken card only logs a warning and keeps its previous file.
+      - name: Update cards
+        run: bash .github/scripts/update-cards.sh
+
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: cards
+          path: assets/*.svg
+          if-no-files-found: error
+          retention-days: 1
+
+  # Only runs trusted steps with the write token.
+  publish:
+    needs: generate
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
 
-      # Never fails the job: a broken card only logs a warning and keeps its previous file.
-      - name: Download cards
-        run: bash .github/scripts/update-cards.sh
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: cards
+          path: assets
 
       - name: Commit and push if changed
         run: |
