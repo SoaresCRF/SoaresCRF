@@ -44,7 +44,7 @@ jobs:
         continue-on-error: true
         with:
           card: top-langs
-          options: username=SoaresCRF&langs_count=8&layout=compact&theme=radical&hide_border=true&bg_color=00000000&custom_title=My Programming Languages
+          options: username=SoaresCRF&langs_count=8&layout=compact&theme=radical&hide_border=true&bg_color=00000000
           path: generated/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           core_version: ''
