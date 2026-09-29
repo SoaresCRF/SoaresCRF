@@ -36,7 +36,7 @@ jobs:
           card: stats
           options: username=SoaresCRF&include_all_commits=true&layout=compact&theme=radical&hide_border=true&bg_color=00000000&custom_title=My GitHub Statistics
           path: assets/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.CARDS_TOKEN }}
           core_version: ''
           fail_on_error: 'true'
 
@@ -47,7 +47,7 @@ jobs:
           card: top-langs
           options: username=SoaresCRF&langs_count=8&layout=compact&theme=radical&hide_border=true&bg_color=00000000
           path: assets/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.CARDS_TOKEN }}
           core_version: ''
           fail_on_error: 'true'
 
@@ -57,7 +57,7 @@ jobs:
         with:
           username: SoaresCRF
           output_path: assets/trophy.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.CARDS_TOKEN }}
           theme: radical
 
       - name: Generate streak card
@@ -66,7 +66,7 @@ jobs:
         with:
           options: user=SoaresCRF&theme=radical&hide_border=true&background=transparent&stroke=transparent
           path: assets/streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.CARDS_TOKEN }}
 
       # Only these four files reach the publish job, so the renderers cannot
       # change anything else in the repository.
