@@ -8,13 +8,13 @@ TIMEOUT_SECONDS=30
 # Error cards from these services are still valid SVGs served with HTTP 200,
 # so the body has to be checked too.
 ERROR_PATTERN='something went wrong|rate limit|could not|error'
-# Cards rendered earlier in the workflow by the official github-readme-stats action.
+# Cards rendered earlier in the workflow by the official github-readme-stats and
+# github-profile-trophy actions.
 GENERATED_DIR="${GENERATED_DIR:-generated}"
-GENERATED_CARDS=(stats top-langs)
+GENERATED_CARDS=(stats top-langs trophy)
 
 declare -A CARDS=(
   [streak]="https://streak-stats.demolab.com/?user=SoaresCRF&theme=radical&hide_border=true&background=transparent&stroke=transparent&cache_seconds=86400"
-  [trophy]="https://trophy.ryglcloud.net/?username=SoaresCRF&theme=radical&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400"
 )
 
 mkdir -p "$ASSETS_DIR"

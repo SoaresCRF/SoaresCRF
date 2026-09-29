@@ -22,9 +22,8 @@ while [ $# -gt 0 ]; do
   esac
 done
 case "$url" in
-  *streak*) echo '<svg>Could not find a user with that name.</svg>' > "$out" ;;
-  *trophy*)
-    if [ "${FAKE_TROPHY:-}" = html ]; then
+  *streak*)
+    if [ "${FAKE_STREAK:-}" = html ]; then
       echo '<html><body>Service page</body></html>' > "$out"
     else
       echo 'curl: (22) The requested URL returned error: 404' >&2; exit 22
@@ -38,6 +37,7 @@ for name in stats top-langs streak trophy; do
 done
 echo '<svg>new stats</svg>' > "$work/generated/stats.svg"
 echo '<svg>Something went wrong! file an issue</svg>' > "$work/generated/top-langs.svg"
+echo '<svg>Could not find a user with that name.</svg>' > "$work/generated/trophy.svg"
 
 run() {
   (cd "$work" && PATH="$work/bin:$PATH" bash "$script")
@@ -56,8 +56,8 @@ check() {
 output=$(run)
 check stats '<svg>new stats</svg>' 'valid generated card replaces the old file'
 check top-langs '<svg>old top-langs</svg>' 'generated error card keeps the old file'
-check streak '<svg>old streak</svg>' '"could not" error card keeps the old file'
-check trophy '<svg>old trophy</svg>' 'failed download keeps the old file'
+check trophy '<svg>old trophy</svg>' '"could not" error card keeps the old file'
+check streak '<svg>old streak</svg>' 'failed download keeps the old file'
 
 if grep -q 'Done: 3 of 4 cards failed.' <<< "$output"; then
   echo "ok   summary reports 3 failures"
@@ -67,8 +67,8 @@ else
 fi
 
 rm "$work/generated/stats.svg"
-(export FAKE_TROPHY=html; run > /dev/null)
+(export FAKE_STREAK=html; run > /dev/null)
 check stats '<svg>new stats</svg>' 'missing generated card keeps the current file'
-check trophy '<svg>old trophy</svg>' 'non-SVG response keeps the old file'
+check streak '<svg>old streak</svg>' 'non-SVG response keeps the old file'
 
 exit $fail

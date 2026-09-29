@@ -50,6 +50,15 @@ jobs:
           core_version: ''
           fail_on_error: 'true'
 
+      - name: Generate trophy card
+        uses: ryo-ma/github-profile-trophy@e3c89df995e92e67cdd4b2acaab9d974583dc1f7 # master (repo has no release tags)
+        continue-on-error: true
+        with:
+          username: SoaresCRF
+          output_path: generated/trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          theme: radical
+
       # Never fails the job: a broken card only logs a warning and keeps its previous file.
       - name: Update cards
         run: bash .github/scripts/update-cards.sh
