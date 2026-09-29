@@ -52,7 +52,7 @@ jobs:
           fail_on_error: 'true'
 
       - name: Generate trophy card
-        uses: ryo-ma/github-profile-trophy@e3c89df995e92e67cdd4b2acaab9d974583dc1f7 # master (repo has no release tags)
+        uses: ryo-ma/github-profile-trophy@e3c89df995e92e67cdd4b2acaab9d974583dc1f7 # master; release v1.0 lacks the theme input
         continue-on-error: true
         with:
           username: SoaresCRF
