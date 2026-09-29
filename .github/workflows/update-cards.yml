@@ -21,6 +21,8 @@ jobs:
     timeout-minutes: 10
     permissions:
       contents: read
+    outputs:
+      card-failed: ${{ steps.stats.outcome == 'failure' || steps.top-langs.outcome == 'failure' || steps.trophy.outcome == 'failure' || steps.streak.outcome == 'failure' }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
@@ -30,6 +32,7 @@ jobs:
       # of installing the latest 2.x from npm on every run. fail_on_error stops
       # it from writing a "Something went wrong" card.
       - name: Generate stats card
+        id: stats
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         continue-on-error: true
         with:
@@ -41,6 +44,7 @@ jobs:
           fail_on_error: 'true'
 
       - name: Generate top languages card
+        id: top-langs
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         continue-on-error: true
         with:
@@ -52,6 +56,7 @@ jobs:
           fail_on_error: 'true'
 
       - name: Generate trophy card
+        id: trophy
         uses: ryo-ma/github-profile-trophy@e3c89df995e92e67cdd4b2acaab9d974583dc1f7 # master; release v1.0 lacks the theme input
         continue-on-error: true
         with:
@@ -61,6 +66,7 @@ jobs:
           theme: radical
 
       - name: Generate streak card
+        id: streak
         uses: DenverCoder1/github-readme-streak-stats@d855de1a23fe45bdda5ffbc28a6d4b80b0f107e1 # v1.8.0
         continue-on-error: true
         with:
@@ -109,3 +115,12 @@ jobs:
           # A manual push to main may have landed during the run.
           git pull --rebase
           git push
+
+      # continue-on-error keeps the run green when a card fails, so an expired
+      # CARDS_TOKEN would freeze the cards silently. Failing here, after the
+      # other cards were published, triggers the failed-workflow email.
+      - name: Fail if a card failed to render
+        if: needs.generate.outputs.card-failed == 'true'
+        run: |
+          echo "::error::A card failed to render; check the generate job logs (expired CARDS_TOKEN?)."
+          exit 1
