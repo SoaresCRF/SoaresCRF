@@ -84,6 +84,8 @@
   <img src="https://img.shields.io/badge/flutter-%2302569B.svg?style=flat&logo=flutter&logoColor=white&logoSize=auto&cacheSeconds=86400" alt="Flutter" height="40" />
 </p>
 
+<br />
+
 <p align="center">
   <a href="https://github.com/SoaresCRF"><img height="180" src="./assets/top-langs.svg" alt="Top Languages" /></a>
 </p>
