@@ -12,8 +12,10 @@ concurrency:
   group: ${{ github.workflow }}
 
 jobs:
-  # Runs the third-party card renderers with a read-only token, so even a
-  # malicious version could not write to the repository.
+  # Runs the third-party card renderers with CARDS_TOKEN, a fine-grained
+  # read-only token over all repositories, so private repos and commits are
+  # counted. Even a malicious version could not write to any repository, but
+  # it could read private code, which is why the actions are pinned by SHA.
   # Each renderer writes its card only on success and continue-on-error lets
   # the others run, so a failed card keeps the previous file from the checkout.
   generate:
